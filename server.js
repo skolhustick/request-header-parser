@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const accepts = require('accepts');
 
 app.get('/', function(request, response) {
   response.sendFile(__dirname + '/views/index.html');
